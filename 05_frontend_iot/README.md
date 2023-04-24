@@ -2,12 +2,12 @@
 
 ## Install dependencies
 
-`cd` into the `05_frontend` and run the command `npm install`
+`cd` into the `05_frontend_iot` and run the command `npm install`
 
 
 ## Run the application
 
-`cd` in to the `05_frontend` and run the command `npm run dev`
+`cd` in to the `05_frontend_oit` and run the command `npm run dev`
 
 
 ## Hide setting/configuration files (optional)
