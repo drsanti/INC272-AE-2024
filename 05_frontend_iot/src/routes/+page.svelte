@@ -1,8 +1,4 @@
 
-<div class="flex flex-col text-3xl items-center">
-    <ol class="list-decimal">
-        <li class="hover:text-yellow-300 pt-8"><a href="tw-01-sizing">Sizing</a></li>
-        <li class="hover:text-yellow-300 pt-8"><a href="tw-02-center">Flex (center)</a></li>
-    </ol>
-</div>
 
+<h1 class="flex justify-center m-4 text-3xl">How to learn</h1>
+<p class="flex justify-center">Open the examples (*.svelte) in the `src/routes/basics_tailwind` and check them all.</p>
