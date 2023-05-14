@@ -26,7 +26,7 @@
 		"**/.eslintrc": true,
 		"**/nodemon.json": true,
 		"**/note.md": true,
-		"**/tsconfig.tsbuildinfo": true
+		"**/tsconfig.tsbuildinfo": true,
 	},
 	"cSpell.words": [
 		"tsbuildinfo"
