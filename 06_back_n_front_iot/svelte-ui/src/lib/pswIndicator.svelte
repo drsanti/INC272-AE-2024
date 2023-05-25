@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Footer from './footer.svelte';
+	import Footer from './Footer.svelte';
 
 	export let data: McuLedData;
 	export let time: string;

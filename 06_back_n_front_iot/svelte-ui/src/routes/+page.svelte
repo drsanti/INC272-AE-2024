@@ -1,30 +1,33 @@
 <script lang="ts">
+	import LedController from '$lib/LedController.svelte';
+	import LedIndicator from '$lib/LedIndicator.svelte';
+	import PswIndicator from '$lib/PswIndicator.svelte';
+	import AdcIndicator from '$lib/AdcIndicator.svelte';
 	import { mcuLink } from '$lib/mcuLink';
 	import { onDestroy, onMount } from 'svelte';
-	import LedIndicator from '$lib/ledIndicator.svelte';
-	import PswIndicator from '$lib/pswIndicator.svelte';
-	import LedController from '$lib/ledController.svelte';
-	import AdcIndicator from '$lib/adcIndicator.svelte';
+	
 
 	let leds: McuLedData[] = [];
 	let psws: McuPswData[] = [];
 	let adcs: McuAdcData[] = [];
 
-	let lastUpdate = mcuLink().timeGet();
+	let lastUpdate = mcuLink.timeGet();
 	onMount(() => {
-		mcuLink().start((data: McuData) => {
-			leds = data.led;
-			psws = data.psw;
-			adcs = data.adc;
-			lastUpdate = mcuLink().timeGet();
-			console.log(`---`);
-			console.log(adcs[0].value, adcs[1].value, adcs[2].value, adcs[3].value);
+		mcuLink.start((data: McuData) => {
+			console.log(data)
+			leds = data.leds;
+			psws = data.psws;
+			adcs = data.adcs;
+			lastUpdate = mcuLink.timeGet();
+
+			console.log(leds);
+			
 		});
 		console.clear();
 	});
 
 	onDestroy(() => {
-		mcuLink().stop();
+		mcuLink.stop();
 	});
 </script>
 

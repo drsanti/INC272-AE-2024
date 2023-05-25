@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Footer from './footer.svelte';
+	import Footer from './Footer.svelte';
 	import { mcuLink } from './mcuLink';
 	export let data: McuLedData;
 	export let time: string;
@@ -10,17 +10,20 @@
 
 	const toggle = async (e: any) => {
 		id = e.target.id;
-		mcuLink().requestData((mcuData: McuData) => {
-			data = mcuData.led[id];
+		mcuLink
+		mcuLink.requestData((mcuData: McuData) => {
+			data = mcuData.leds[id];
 
 			if (data.value) {
-				mcuLink().ledOff(id);
+				mcuLink.ledOff(id);
 			} else {
-				mcuLink().ledOn(id);
+				mcuLink.ledOn(id);
 			}
 
 			btnClass = data.value ? 'btn-on' : 'btn-off';
 			e.target.innerHTML = `${data.value ? 'ON' : 'OFF'} LED${id}`;
+
+			mcuLink.beep(50, 2000, 80);
 		});
 
 		// await new Promise((resolve) => setTimeout(resolve, 1000));
