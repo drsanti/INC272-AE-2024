@@ -1,5 +1,5 @@
 # Install Dependencies of the Server
-Open a terminal window, and `cd` into the `06_back_n_front_iot`, then run the command
+Open a terminal window, and `cd` into the `06_back_n_front_iot`, then run the command 
 
 ```
 npm i
