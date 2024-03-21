@@ -1,7 +1,7 @@
 # 05_frontend_iot
 
 
-## Install Node.js
+## Install Node.js 
 Node.js version 18 or higher is required.
 To check the version of the Node.js, run the command `node -v`
 
