@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    font-size: 52px;
+    color: lime;
+}
+
+p {
+    color: cyan;
+}
+
+h1 {
+    background-color: rgb(2, 60, 11);
+    color: white;
+    font-family: cursive;
+}
