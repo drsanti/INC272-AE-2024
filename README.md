@@ -7,7 +7,8 @@ To learn and develop web applications using:
  - JavaScript
   
 ## Scoring
- - Weekly Quiz (100%)
+ - Weekly Quiz `60%`
+ - Final Mini-Project `40%`
 
 ## 1st Quiz (10 marks)
  - 28 March 2024, 09.30 AM
@@ -26,4 +27,3 @@ To learn and develop web applications using:
  - Check all directories and files in the `04_basic_javascript`
  - 10 Questions/Problems
 
-github.com/drsanti/INC272-AE-2024
