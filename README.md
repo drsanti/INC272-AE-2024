@@ -19,7 +19,11 @@ To learn and develop web applications using:
  - Check `02_basic_embedded_style` and `03_basic_external_style`
  - 5 Questions/Problems
 
+ > No class `11 & 18 April 2024` 
 
- No class `11 & 18 April 2024` 
+## 3rd Quiz (10 marks)
+ - 25 April 2024, 09.30 AM
+ - Check all directories and files in the `04_basic_javascript`
+ - 10 Questions/Problems
 
 github.com/drsanti/INC272-AE-2024
