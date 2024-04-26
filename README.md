@@ -28,13 +28,13 @@ To learn and develop web applications using:
  - 10 Questions/Problems
 
 ## Quiz #4 (20 marks)
- - 3 May 2024, 09.30 AM
+ - 2 May 2024, 09.30 AM
  - Check all directories and files in the `04_basic_javascript`. Focus on `array`, `function` and `data generation` algorithms.
  - 10 Questions/Problems
 
- > No class `10 May 2024`
+ > No class `9 May 2024`
 
 ## Quiz #5 (20 marks)
- - 10 May 2024, 09.30 AM
+ - 16 May 2024, 09.30 AM
  - Check all directories, check all the topics, `HTML`, `CSS` and `JavaScript`.
  - 10 Questions/Problems
